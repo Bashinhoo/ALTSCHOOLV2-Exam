@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
 .hero-section {
   /* margin: 12px, 145px, 968px; */
   box-sizing: border-box;
@@ -13,6 +18,7 @@
   justify-content: center;
 }
 .nav-bar {
+  margin: 12px;
   display: flex;
   align-items: center;
   gap: 140px;
@@ -42,11 +48,9 @@
   border-radius: 10px;
 }
 
-
 header {
   padding-top: 3.8rem;
 }
-
 
 .header-title {
   text-transform: capitalize;
@@ -91,17 +95,74 @@ h1 {
   font-family: "gilroy-bold";
 }
 
-.chain-contain {
+.sub-header {
   display: flex;
-  border: 10px salmon;
-  
-  
+  flex-direction: column;
+}
+
+.header-underline {
+  margin-top: -24px;
+}
+
+.chain-contain {
+  justify-content: center;
+  margin: auto;
+  width: auto;
+  margin-top: 96px;
+  position: relative;
+
+  /* display: flex; */
+  /* border: 10px salmon; */
+}
+
+.chain {
+  border: 0.5px solid #005ae2;
+  border-radius: 24px;
+  padding: 40px 60px;
+  width: 500px;
+  margin: auto;
+  background: rgba(254, 254, 254, 0.1);
+  backdrop-filter: blur(106px);
 }
 
 .chaines {
-    display: flex;
-    padding: 2.5rem 3.75rem;;
-    align-items: center;
-    
+  display: flex;
+}
+.line {
+  margin-top: 5px;
 }
 
+.chain-arrow {
+  display: flex;
+  gap: 20px;
+}
+.chain-text {
+  text-align: center;
+  font-size: 12px;
+  font-family: Gilroy-Medium;
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+.chain-bg {
+  position: absolute;
+  top: -14px;
+  left: 488px;
+  height: 218px;
+  z-index: -100;
+}
+.chain-img {
+  height: 100%;
+}
+
+.eclipse {
+    margin-top: 76px;
+    position: relative;
+  }
+
+.eclipse-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
