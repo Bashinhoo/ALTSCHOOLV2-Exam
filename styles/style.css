@@ -3,6 +3,12 @@
   box-sizing: border-box;
   padding: 0;
 }
+
+body {
+  font-family: gilroy-medium;
+  line-height: 1.5;
+}
+
 .hero-section {
   /* margin: 12px, 145px, 968px; */
   box-sizing: border-box;
@@ -156,13 +162,135 @@ h1 {
 }
 
 .eclipse {
-    margin-top: 76px;
-    position: relative;
-  }
+  margin-top: 76px;
+  position: relative;
+}
 
-.eclipse-img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.eclipse-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* engagement */
+
+.engagement {
+  padding: 60px 140px;
+
+  background: #f9fbfd;
+}
+
+.engagement-all {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.engagement-note {
+  width: 337px;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.engagement-list {
+  display: flex;
+
+  gap: 72px;
+  justify-content: flex-end;
+}
+
+.engagement-list {
+  display: flex;
+  gap: 3rem;
+}
+
+.engagement-figure {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.engagement-fig-info {
+  display: block;
+  font-size: 16px;
+}
+
+.engagement-all {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.details-head {
+  width: 337px;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+
+.details-title-container {
+  display: flex;
+  font-size: 10px;
+
+  gap: 5px;
+}
+
+.details-head-scissors {
+  font-size: 20px;
+}
+
+.details-center {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  padding: 128px 120px 130px 120px;
+}
+
+.details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.detail-text h2 {
+  font-size: 16px;
+}
+
+.detail-icon {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  background-color: rgba(220, 228, 235, 0.7);
+  display: grid;
+  place-items: center;
+}
+
+.details-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.details-head {
+  font-size: 40px;
+}
+
+.details-center {
+  flex-direction: row;
+  gap: 5%;
+}
+
+.details-title-container {
+  flex-basis: 40%;
+}
+
+.details-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-basis: 55%;
 }
